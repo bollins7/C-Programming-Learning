@@ -5,6 +5,7 @@
 
 int main(void)
 {
+    // Get size of grid
     int m;
     do
     {
@@ -12,6 +13,7 @@ int main(void)
     }
     while (m < 1);
 
+    // Prints grid of bricks
     for (int i = 0; i < 4; i++)
     {
         printf("?");
