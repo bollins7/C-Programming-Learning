@@ -7,7 +7,5 @@ int main(void)
     int age = get_int("Age: \n");
     long phone = get_long("Enter phone number: \n");
 
-    printf("Name: %s\n", name);
-    printf("Age: %i\n", age);
-    printf("Phone info: %li\n", phone);
+    printf("Name: %s \n Age: %i \n Phone: %li \n", name, age, phone);
 }
