@@ -10,7 +10,7 @@ int main(void)
     long x = get_long("X: ");
     long y = get_long("Y: ");
 
-    float z = (float) x / (float) y;
+    int z = (int) x + (int) y;
 
-    printf("%.20f\n", z);
+    printf("%i\n", z);
 }
